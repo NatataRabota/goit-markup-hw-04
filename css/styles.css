@@ -122,13 +122,24 @@ img {
 }
 
 .contact-mail{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
     font-family: var(--main-font);
     margin-right: 50px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,172;
     letter-spacing: 0.02em;
+    outline: 1px solid blue;
     color: #757575;
+}
+
+.icon-mail {
+    margin-right: 10px;
+    background-size: contain;
+    outline: 1px solid blue;
+    fill: currentColor;
 }
 
 .contact-phone{
@@ -214,6 +225,27 @@ img {
     display: flex;
 }
 
+.icon {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+}
+
+.features-icon {
+    display: inline-flex;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.features-title-item {
+    width: 270px;
+    height: 251px;
+}
+
 .features-title-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -246,6 +278,7 @@ img {
 /* ------ END FEATURES ------ */
 
 /* ------ ABOUT ------ */
+
 .title {
     padding-bottom: 50px;
     font-family: var(--main-font);
