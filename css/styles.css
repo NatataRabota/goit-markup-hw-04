@@ -75,16 +75,6 @@ img {
     color: var(--accent-color)
 }
 
-/* .contact-mail::before { 
-    content: "";
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    outline: 1px solid black;
-    background-image: url("../images/sprite.svg#icon-mail");
-    background-size: contain; */
-}
-
 .menu-list-link:hover,
 .menu-list-link:focus,
 .contact-mail:hover,
@@ -141,7 +131,7 @@ img {
 .icon-mail {
     margin-right: 10px;
     background-size: contain;
-    background-position: auto auto;
+    align-items: baseline;
     fill: currentColor;
 }
 
@@ -236,19 +226,16 @@ img {
 }
 
 .icon {
+    display: inline-flex;
     margin: 0;
     padding: 0;
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
-    background-color: #F5F4FA;
-}
-
-.features-icon {
-    display: inline-flex;
-    background-size: contain;
-    background-position: center;
+    align-items: center;
     background-repeat: no-repeat;
+    justify-content: center;
+    background-color: #F5F4FA;
 }
 
 .features-title-item {
@@ -290,7 +277,7 @@ img {
 /* ------ ABOUT ------ */
 
 .title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
@@ -378,7 +365,7 @@ img {
 }
 
 .team-content {
-    padding: 30px 55px;
+    padding: 30px 32px;
 }
 
 .team {
@@ -396,31 +383,85 @@ img {
 .clients-list {
     display: inline-flex;
 }
+
+.clients-item {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: #AFB1B8;
+}
+
+.clients-icon {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-item:hover,
+.clients-item:focus {
+    border-color: var(--accent-color);
+}
+
+.clients-icon:hover .logo,
+.clients-icon:focus .logo {
+    fill: var(--accent-color);
+}
+
 .clients-icon_logo {
-    fill: #AFB1B8;
+    fill:#AFB1B8;
 }
 
 .clients-item:not(:last-child) {
     margin-right: 30px;
+}
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 /* ------ END CLIENTS ------ */
 
 /* ------ FOOTER ------ */
 footer {
     padding: 60px 0px;
-    min-width: 1600px;
-    min-height: 252px;
     background-color: #2F303A;
+}
+
+.footer-container {
+    display: flex;
+    width: 1200px;
+    height: 130px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.footer-address {
+    margin: 0;
+    bottom: 0;
+    margin-right: 70px;
+    width: 231px;
+    align-items: baseline;
+}
+
+.footer-link {
+    width: 206px;
 }
 
 .address-text {
     margin-top: 20px;
+    margin-bottom: 9px;
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1,714;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+
+.address-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .contact-list {
@@ -431,11 +472,42 @@ footer {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.social-footer_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.social-footer_link:hover,
+.social-footer_link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-footer_link:hover .social-list_icon,
+.social-footer_link:focus .social-list_icon {
+    fill: #FFFFFF;
+}
+
+.social-list_icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
 /* ------ END FOOTER ------ */
 
 /* =============================ПОРТФОЛИО============================= */
 .items {
     display: flex;
+}
+
+.header {
+    border: 1px solid #ECECEC
 }
 
 .container-projects {
@@ -497,13 +569,17 @@ footer {
     display: block;
     padding: 20px 24px;
     max-width: 370px;
-    border-style: solid;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    /* border-style: solid;
     border-right-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
-    border-color: #eeeeee;
+    border-color: #eeeeee; */
 }
 
 .project-text {

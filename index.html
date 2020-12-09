@@ -30,7 +30,7 @@
                 </ul>
             </nav>
             <address class="address">
-                <div>
+                <div class="contact">
                     <a class="contact-mail" href="mailto:info@devstudio.com">
                         <svg class="icon-mail" width="16" height="12">
                             <use class="icon-mail link" href="./images/sprite.svg#icon-mail"></use>
@@ -41,7 +41,8 @@
                         <svg class="icon-mail" width="10" height="16">
                             <use class="icon-mail link" href="./images/sprite.svg#icon-phone"></use>
                         </svg>
-                        +38 096 111 11 11</a>
+                        +38 096 111 11 11
+                    </a>
                 </div>
             </address>
         </div>
@@ -279,49 +280,49 @@
         <!-- CLIENTS -->
         <section class="clients">
             <div class="container">
-                <h2 class="clients-title">Постоянные клиенты</h2>
+                <h2 class="title">Постоянные клиенты</h2>
                 <ul class="clients-list">
                     <li class="clients-item">
-                        <div class="clients-icon">
+                        <a href class="clients-icon">
                             <svg class="clients-icon_logo" width="45" height="50">
-                                <use href="./images/sprite.svg#icon-logo-1"></use>
+                                <use href="./images/sprite.svg#icon-logo-1" class="logo"></use>
                             </svg>
-                        </div>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <div class="clients-icon">
+                        <a href class="clients-icon">
                             <svg class="clients-icon_logo" width="40" height="52">
-                                <use href="./images/sprite.svg#icon-logo-2"></use>
+                                <use href="./images/sprite.svg#icon-logo-2" class="logo"></use>
                             </svg>
-                        </div>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <div class="clients-icon">
+                        <a href class="clients-icon">
                             <svg class="clients-icon_logo" width="41" height="43">
-                                <use href="./images/sprite.svg#icon-logo-3"></use>
+                                <use href="./images/sprite.svg#icon-logo-3" class="logo"></use>
                             </svg>
-                        </div>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <div class="clients-icon">
+                        <a href class="clients-icon">
                             <svg class="clients-icon_logo" width="80" height="42">
-                                <use href="./images/sprite.svg#icon-logo-4"></use>
+                                <use href="./images/sprite.svg#icon-logo-4" class="logo"></use>
                             </svg>
-                        </div>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <div class="clients-icon">
+                        <a href class="clients-icon">
                             <svg class="clients-icon_logo" width="59" height="47">
-                                <use href="./images/sprite.svg#icon-logo-5"></use>
+                                <use href="./images/sprite.svg#icon-logo-5" class="logo"></use>
                             </svg>
-                        </div>
+                        </a>
                     </li>
                     <li class="clients-item">
-                        <div class="clients-icon">
+                        <a href class="clients-icon">
                             <svg class="clients-icon_logo" width="89" height="46">
-                                <use href="./images/sprite.svg#icon-logo-6"></use>
+                                <use href="./images/sprite.svg#icon-logo-6" class="logo"></use>
                             </svg>
-                        </div>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -330,9 +331,10 @@
 
     <footer class="footer">
         <!-- CONTACTS -->
-        <div class="container">
-            <a class="logo" href="/" aria-label="логотип сайта"><span class="logo-accent">Web</span>Studio</a>
-            <address class="address">
+        <div class="footer-container">
+            <div class="footer-address">
+                <a class="logo" href="/" aria-label="логотип сайта"><span class="logo-accent">Web</span>Studio</a>
+                <address class="address">
                     <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
                 <ul class="address-title">
                     <li class="address-item">
@@ -342,7 +344,41 @@
                         <a class="contact-list" href="tel:+380991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
-            </address>
+                </address>
+            </div>
+            <div class="footer-link">
+                <p class="address-text">ПРИСОЕДИНЯЙТЕСЬ</p>
+                <ul class="social-list list">
+                    <li class="social-list_item">
+                        <a class="social-footer_link" href="">
+                            <svg class="social-list_icon">
+                                <use href="./images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list_item">
+                        <a class="social-footer_link" href="">
+                            <svg class="social-list_icon">
+                                <use href="./images/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list_item">
+                        <a class="social-footer_link" href="">
+                            <svg class="social-list_icon">
+                                <use href="./images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list_item">
+                        <a class="social-footer_link" href="">
+                            <svg class="social-list_icon">
+                                <use href="./images/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
