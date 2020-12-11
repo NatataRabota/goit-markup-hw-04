@@ -48,7 +48,7 @@ img {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,192;
+    line-height: 1.192;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -57,7 +57,7 @@ img {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,192;
+    line-height: 1.192;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
@@ -66,7 +66,7 @@ img {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,142;
+    line-height: 1.142;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -118,7 +118,7 @@ img {
     margin-right: 50px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,172;
+    line-height: 1.172;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -141,7 +141,7 @@ img {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,172;
+    line-height: 1.172;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -196,7 +196,7 @@ img {
     font-family: var(--main-font);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,364;
+    line-height: 1.364;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -208,7 +208,7 @@ img {
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,875;
+    line-height: 1.875;
     display: inline-block;
     align-items: center;
     letter-spacing: 0.06em;
@@ -252,7 +252,7 @@ img {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,143;
+    line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -262,7 +262,7 @@ img {
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,714;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -281,7 +281,7 @@ img {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,167;
+    line-height: 1.167;
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
@@ -348,7 +348,7 @@ img {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,187;
+    line-height: 1.187;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -358,7 +358,7 @@ img {
     font-family: var(--main-font);
     font-style: normal;
     font-size: 16px;
-    line-height: 1,187;
+    line-height: 1.187;
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 16px;
@@ -458,7 +458,7 @@ footer {
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,714;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -471,7 +471,7 @@ footer {
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,714;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -535,7 +535,7 @@ footer {
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,625;
+    line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
     height: 38px;
@@ -590,7 +590,7 @@ footer {
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,875;
+    line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
 }
